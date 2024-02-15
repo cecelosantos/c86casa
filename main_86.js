@@ -4,7 +4,7 @@ var grades = [];
            //Adicione os nomes de IDs apropriados para ler as notas, studentName
            document.getElementById("scores").value = "";
            document.getElementById("studentName ").value = val;
-           document.getElementById("score  ").value = "";   
+           document.getElementById("score").value = "";
            document.getElementById("studentName").focus();
         }    
         //Função para adicionar por último, notas para studentGrade
@@ -55,7 +55,7 @@ var grades = [];
         var sort_click = function () 
         {
         //Adicione a função sort() para organizar os alunos pelos nomes
-        grades. sort();
+        grades.sort();
         update_scores();
         }
         
